@@ -1,0 +1,24 @@
+/* Стили для header */
+header {
+    background: #00ccff; /* Цвет фона */
+    font-size: 3rem; /* Размер шрифта */
+    height: 80px; /* Высота */
+    display: flex; /* Расположение элементов */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    border-radius: 10px; /* Скругление углов */
+    transition: background-color 0.7s ease; /* Добавляем плавное изменение цвета */
+}
+
+header:hover {
+    background-color: #0099ff; /* Новый цвет фона при наведении */
+}
+
+/* Медиа-запросы для адаптивности */
+@media screen and (max-width: 768px) {
+    /* При ширине экрана до 768px */
+    header {
+        font-size: 2rem; /* Уменьшенный размер шрифта */
+        height: 60px; /* Уменьшенная высота */
+    }
+}

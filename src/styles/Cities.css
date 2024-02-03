@@ -1,0 +1,29 @@
+/* Стили для формы выбора */
+.form-select {
+    display: block; /* Отображаем элемент как блок */
+    width: 35%; /* Ширина элемента */
+    padding: 10px; /* Внутренние отступы */
+    margin: 20px auto; /* Отступы по вертикали и горизонтали */
+    border: 2px solid #ccc; /* Граница элемента */
+    border-radius: 5px; /* Закругление углов */
+    font-size: 1rem; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    background-color: #f8f8f8; /* Цвет фона */
+    transition: border-color 0.3s, background-color 0.3s; /* Плавные переходы цветов */
+}
+
+/* Стили при фокусе */
+.form-select:focus {
+    outline: none; /* Убираем контур фокуса */
+    border-color: #00ccff; /* Изменяем цвет границы при фокусе */
+    background-color: #fff; /* Изменяем цвет фона при фокусе */
+}
+
+/* Медиа-запросы для адаптивности */
+@media screen and (max-width: 768px) {
+    /* При ширине экрана до 768px */
+    .form-select {
+        width: 90%; /* Изменяем ширину на 90% */
+    }
+}
+
